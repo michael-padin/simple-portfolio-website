@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/index.styles.css" />
+		<title>Sign up</title>
+	</head>
+	<body>
+		<div class="auth__wrapper">
+			<div class="auth__left">
+				<nav>
+					<div class="navbar__wrapper auth__nav">
+						<div class="navbar-container">
+							<a href="index.html"> <h1>Michael</h1></a>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="auth__right">
+				<div class="form__wrapper">
+					<form action="" id="signupForm">
+						<div>
+							<h1>Create your account!</h1>
+							<p>Please enter your details</p>
+						</div>
+						<div class="input-wrapper">
+							<div class="email-container">
+								<label for="">Email</label>
+								<input type="email" id="email" />
+								<span id="email-err"></span>
+							</div>
+							<div class="name-container">
+								<label for="">Name</label>
+								<input type="text" id="name" />
+								<span id="name-err"></span>
+							</div>
+							<div class="password-container">
+								<label for="">Password</label>
+								<input type="password" id="password" />
+								<span id="password-err"></span>
+							</div>
+						</div>
+						<div class="login-btn-wrapper">
+							<button class="signup-btn auth-btn" id="signUpBtn" type="submit">
+								Sign up
+							</button>
+						</div>
+						<div class="alternative">
+							Already have an account?
+							<span><a href="login.html">Login</a></span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="../scripts/signup.js" type="text/javascript" defer></script>
+	</body>
+</html>
